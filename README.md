@@ -1,0 +1,2 @@
+# ipsj_zenkoku_tex
+情報処理学会全国大会用LaTeXテンプレート
