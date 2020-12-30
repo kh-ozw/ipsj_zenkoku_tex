@@ -1,0 +1,31 @@
+
+\documentclass[submit]{ipsj}
+%\documentclass{ipsj}
+
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage{zenkoku} %%パッケージ"zenkoku"を追加
+
+\def\Underline{\setbox0\hbox\bgroup\let\\\endUnderline}
+\def\endUnderline{\vphantom{y}\egroup\smash{\underline{\box0}}\\}
+\def\|{\verb|}
+
+\begin{document}
+
+\title{論文タイトル}
+
+\etitle{English title}
+
+\affiliate{X大学}{X University}
+\affiliate{Y大学}{Y University}
+\affiliate{Z大学}{Z University}
+
+\author{著者　A}{X大学}
+\author{著者　B}{Y大学}
+\author{著者　C}{Y大学}
+\author{著者　D}{Z大学}
+
+\maketitle
+
+以下、本文
+\end{document}
